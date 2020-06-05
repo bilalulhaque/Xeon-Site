@@ -1,0 +1,464 @@
+.navbar{
+    background-color:#01579B !important;
+    color: white !important;
+}
+.navbar-brand>img{
+    height: 70px;
+    width: 120px;
+}
+.fa-user,.fa-shopping-cart{
+    font-size: 30px !important;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: white;
+}
+.navbar-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    background-color: white !important;
+    color:#01579B !important;
+    font-weight: 600;
+}
+.nav-link{
+    color: white !important;
+    font-weight: 600;
+    font-size: large;
+}
+
+.nav-link:hover{
+    color:yellow !important;
+}
+
+.dropdown-item:hover{
+    background-color: #01579B;
+    color: white !important;
+}
+
+.dropdown,.form-control{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#prodbar{
+    background-color: #263238 !important;
+}
+
+.col-sm:hover{
+    background-color: #455A64;
+}
+
+.col-sm{
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#carouselExampleInterval{
+    width: 1100px !important ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#msg{
+    background-color: #01579B;
+    color: white;
+    width: 1100px !important;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#CardContainer{
+    width: 1100px;
+    /* border: 1px solid grey; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#MainCard{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+
+    
+}
+
+.fa-truck,.fa-phone-square,.fa-bolt,.fa-globe,.fa-users,.fa-check{
+    font-size: 35px !important;
+}
+
+#card1,#card2,#card3,#card4,#card5,#card6{
+    /* display: flex; */
+    /* flex-wrap: wrap !important; */
+    height: 80px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-size: 10px;
+    padding: 8px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+#card1:hover{
+    background-color: #01579B;
+    color: white;
+}
+
+#card2:hover{
+    background-color: #01579B;
+    color: white;
+}
+
+#card3:hover{
+    background-color: #01579B;
+    color: white;
+}
+
+#card4:hover{
+    background-color: #01579B;
+    color: white;
+}
+
+#card5:hover{
+    background-color: #01579B;
+    color: white;
+}
+
+#card6:hover{
+    background-color: #01579B;
+    color: white;
+}
+
+#TopRatedProducts{
+    width: 1100px;
+    /* border: 1px solid red; */
+    margin-top: 14px;
+}
+
+.DifferentProducts{
+    /* border: 1px solid green; */
+    margin-bottom: 20px;
+}
+
+.ProductContainerText{
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+#TopRatedHPProductsContainer{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+.Products{
+    border: 1px solid #D3D3D3;
+    padding: 12px;
+    margin: 5px;
+}
+
+.ProdImages{
+    width: 200px;
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.Title{
+    text-align: center;
+    margin-top: 9px;
+}
+
+.Specifications{
+    color: #696969;
+    font-size: 14px;
+}
+.Price{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 680;
+}
+
+.btn-secondary{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 750 !important;
+}
+
+.add:hover{
+    background-color:#01579B !important;
+    color: white !important;
+}
+
+#TopRatedDellProductsContainer{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid purple; */
+    margin-top: 10px;
+}
+
+#TopRatedSamsungProductsContainer{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid purple; */
+    margin-top: 10px;
+}
+
+#TopRatedAppleProductsContainer{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid purple; */
+    margin-top: 10px;
+}
+
+
+footer{
+    margin-top: 50px;
+}
+
+#Footer1{
+    width: 100%;
+    /* height: 500px; */
+    background-color: #263238;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+#Footer2{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#FooterXeonInfo{
+    width: 300px;
+    /* border: 1px solid blue; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    color: white;
+    /* padding: 8px; */
+    margin: 10px;
+}
+
+#FooterXeonInfo>img{
+    width: 140px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+#FooterProducts{
+    width: 200px;
+    /* border: 1px solid blue; */
+    margin: 10px;
+}
+
+.FooterItems{
+    list-style: none;
+    padding-left: 1px;
+}
+
+#FooterCorporate{
+    width: 200px;
+    /* border: 1px solid blue; */
+    margin: 10px;
+}
+
+#FooterContact{
+    width: 300px;
+    /* border: 1px solid blue; */
+    color: white;
+    /* padding-bottom: 15px; */
+    margin: 10px;
+}
+
+.fa-map-marker,.fa-phone,.fa-envelope{
+    color: #01579B;
+    margin-right: 7px;
+}
+
+.FooterContactItems{
+    margin-bottom: 5px;
+}
+
+#FooterProducts>ul>li>a,#FooterCorporate>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+#FooterProducts>ul>li>a:hover,#FooterCorporate>ul>li>a:hover{
+    color: yellow;
+}
+
+.FooterHeadings{
+    color: white;
+}
+
+#Footer3{
+    width: 100%;
+    background-color: #01579B;
+
+}
+
+#Footer4{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+
+#Footer4>div>img{
+    width: 60px;
+    height: 40px;   
+}
+
+
+#Devices{
+    width: 1100px;
+    /* border: 1px solid red; */
+    margin-top: 14px;
+}
+
+
+#DevicesContainer{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+
+#ContactContainer{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    margin-top: 40px;
+}
+
+.Heading{
+    color: #696969;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+#AboutUs{
+    color: #696969;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    line-height: 1.6em;
+}
+
+#AboutUs>h5{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Policies{
+    color: #696969;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#Policies>h5{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol>li{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    #carouselExampleInterval,#msg,#CardContainer,#TopRatedProducts,#Footer2,#Footer4,#Devices,#ContactContainer,#AboutUs,#Policies{
+        width: 920px !important;
+    }
+    #MainCard{
+        display: flex;
+        justify-content: space-around;        
+    }
+    .ProdImages{
+        width: 190px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #carouselExampleInterval,#msg,#CardContainer,#TopRatedProducts,#Footer2,#Footer4,#Devices,#ContactContainer,#AboutUs,#Policies{
+        width: 710px !important;
+    }
+    .ProductContainerText{
+        text-align: center;
+    }
+    .Heading{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #carouselExampleInterval,#msg,#CardContainer,#TopRatedProducts,#Footer2,#Footer4,#Devices,#ContactContainer,#AboutUs,#Policies{
+        width: 550px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #carouselExampleInterval,#msg,#CardContainer,#TopRatedProducts,#Footer2,#Footer4,#Devices,#ContactContainer,#AboutUs,#Policies{
+        width: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    #carouselExampleInterval,#msg,#CardContainer,#TopRatedProducts,#Footer2,#Footer4,#Devices,#ContactContainer,#AboutUs,#Policies{
+        width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #carouselExampleInterval,#msg,#CardContainer,#TopRatedProducts,#Footer2,#Footer4,#Devices,#ContactContainer,#AboutUs,#Policies{
+        width: 230px !important;
+    }
+    .Heading{
+        font-size: 20px;
+    }
+}
